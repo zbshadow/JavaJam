@@ -203,7 +203,7 @@ img {
 
 @media only screen and (max-width: 768px) {
     header {
-        background-image: url("javajammini.jpg");
+        background-image: url("img/javajammini.jpg");
         height: 128px;
     }
 
