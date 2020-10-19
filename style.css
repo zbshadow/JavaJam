@@ -140,6 +140,24 @@ img {
     display: inline;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-spacing: 0;
+    background-color: #d2b48c;
+    margin-bottom: 30px; /*I hated the way the table touched the footer so I added a margin-bottom to fix the spacing.*/
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(2){
+    background-color: #fcebb6;
+}
+
+/*Format for mobile. Not adjusted for table in menu page.*/
 @media only screen and (max-width: 1024px){
     body{
         margin: 0;
