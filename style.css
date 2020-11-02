@@ -82,8 +82,18 @@ main {
     display: block;
 }
 
-main h2 h3 h4 p div ul dl {
+h2, h3, h4, p, div, ul, dl {
     padding: 0em 2em 0em 3em;
+}
+
+#wrapper, footer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px #6b6a6a;
 }
 
 footer {
@@ -93,16 +103,6 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     border-top: 2px solid #221811;
-}
-
-#wrapper {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #231814;
-    min-width: 900px;
-    max-width: 1280px;
-    box-shadow: 3px 3px #6b6a6a;
 }
 
 .details {
@@ -132,6 +132,34 @@ img {
     height: 250px;
 }
 
+form {
+    padding: 2em;
+}
+
+label {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+#herojobs {
+    height: 250px;
+    background-image: url("img/herojobs.jpg");
+    background-size: 100% 100%;
+}
+
+/*Mobile Compat styles*/
 #mobile {
     display: none;
 }
@@ -255,6 +283,10 @@ img {
     }
 
     #desktop {
+        display: none;
+    }
+
+    #herojobs {
         display: none;
     }
 }

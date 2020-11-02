@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JavaJam Coffee House Jobs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id='wrapper'>
+            <header>
+                <h1>JavaJam Coffee House</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div id="herojobs"></div>
+                <h2>Job's at JavaJam</h2>
+                <p>
+                    Want to work at JavaJam? Fill out the form below to start your application.
+                </p>
+                <form action="http://webdevbasics.net/scripts/javajam8.php" method="POST">
+                    <label for="myName">Name:</label>
+                    <input type="text" id="myName" name="myName">
+                    <label for="myEmail">E-mail:</label>
+                    <input type="text" id="myEmail" name="myEmail">
+                    <label for="myExperience">Experience:</label>
+                    <textarea rows="2" cols="20" id="myExperience" name="myExperience"></textarea>
+                    <input type="submit" value="Apply Now" id="mySubmit">
+                </form>
+            </main>
+        </div>
+        <footer>
+            Copyright © 2018 JavaJam Coffee House<br>
+            <a href="mailto:bbayless@ivytech.edu">bbayless@ivytech.edu</a>
+        </footer>
+    </body>
+</html>
