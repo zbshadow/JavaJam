@@ -128,6 +128,7 @@ img {
 
 #heroguitar {
     background-image: url("img/heroguitar.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     height: 250px;
 }
@@ -157,6 +158,11 @@ input, textarea{
     height: 250px;
     background-image: url("img/herojobs.jpg");
     background-size: 100% 100%;
+}
+
+audio {
+    display: block;
+    margin-top: 1em;
 }
 
 /*Mobile Compat styles*/
